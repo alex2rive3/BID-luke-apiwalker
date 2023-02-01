@@ -12,7 +12,7 @@ const validar = ({ info, selec }) => {
     if (selec) {
         item = selec.split("/").slice(4, 5)[0];
     }
-    if (!info) {
+    if (!info || info.detail === "Not found") {
         return <NotFound />;
     } else {
         switch (item) {

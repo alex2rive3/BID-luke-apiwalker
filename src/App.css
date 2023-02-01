@@ -1,38 +1,70 @@
 .App {
+  width: 90%;
+  margin: 0 auto ;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.row{
+  height: 60px;
+  margin: 15px 20px;
+  padding-top: 25px;
   align-items: center;
+  font-size: 15px;
+}
+img{
+  max-width: 500px;
+}
+form{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 15px;
 }
-
-.App-link {
-  color: #61dafb;
+select{
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border: none;
+  background: cornflowerblue;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 500;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select:focus{
+  border: 0px solid white;
+}
+option{
+  border: none;
+  border-radius: 10px;
+}
+button{
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: cornflowerblue;
+  color: #fff;
+  font-weight: 700;
+}
+input{
+  border: none;
+  background-color: #cacaca;
+  padding: 10px 10px;
+  border-radius: 13px;
+}
+input:focus{
+  border: 0px solid white;
+}
+p,label{
+  font-size: 17px;
+  font-weight: 600;
+  font-style: italic;
+}
+h2{
+  font-weight: 600;
+  font-style: italic;
+}
+.card{
+  width: 40%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 7px 0px black;
+  border-radius: 16px;
 }

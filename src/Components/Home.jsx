@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "../App.css";
-import NotFound from "./NotFound";
 import Validar from "./Validar";
 function Home() {
     const [opciones, setOpciones] = useState([]);
@@ -14,7 +13,10 @@ function Home() {
             fetch(`${select}${idAtribute}`)
                 .then((res) => res.json())
                 .then((result) => setInfo(result))
-                .catch((error) => <NotFound {...error} />);
+                .catch((error) => {
+                    console.log(info);
+                    setInfo();
+                });
         } else {
             alert("Los campos son obligatorios ");
         }
@@ -31,7 +33,7 @@ function Home() {
                 setOpciones(opcion);
                 setSelect(opcion[0].url);
             })
-            .catch((error) => <NotFound {...error} />);
+            .catch((error) => setInfo(""));
     }, []);
     return (
         <div className="App">

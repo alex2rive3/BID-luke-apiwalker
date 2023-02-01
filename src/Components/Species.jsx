@@ -8,7 +8,7 @@ const Species = ({
     hair_colors,
 }) => {
     return (
-        <div>
+        <div className="card">
             <h2>Name: {name}</h2>
             <p>Clasification: {classification}</p>
             <p>Designation: {designation}</p>

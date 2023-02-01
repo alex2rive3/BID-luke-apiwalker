@@ -19,7 +19,7 @@ const PeopleParametro = () => {
             .then((result) => setHome(result.name));
     }, [homeworld]);
     return (
-        <div>
+        <div className="card">
             <h2>Name: {name}</h2>
             <p>Heigth: {height}</p>
             <p>Skin Color: {skin_color}</p>

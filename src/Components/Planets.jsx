@@ -2,15 +2,15 @@ import React from "react";
 
 const Planets = ({
     name,
-    rotation_peiod,
+    rotation_period,
     orbital_period,
     diameter,
     climate,
 }) => {
     return (
-        <div>
+        <div className="card">
             <h2>Name: {name}</h2>
-            <p>Rotation Period: {rotation_peiod}</p>
+            <p>Rotation Period: {rotation_period}</p>
             <p>Orbital Period: {orbital_period}</p>
             <p>Diameter: {diameter}</p>
             <p>Weather: {climate}</p>

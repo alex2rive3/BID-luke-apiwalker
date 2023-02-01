@@ -8,7 +8,7 @@ const Starships = ({
     starship_class,
 }) => {
     return (
-        <div>
+        <div className="card">
             <h2>Name: {name}</h2>
             <p>Model: {model}</p>
             <p>Manufacturer: {manufacturer}</p>
