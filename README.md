@@ -2,7 +2,7 @@
 
 Se te ha asignado una tarea como desarrollador front-end de crear una aplicación para navegar por la API de Star Wars.
 
-[Vista previa de la app](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Luke_APIWalker_Wireframe.png)
+![Vista previa de la app](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Luke_APIWalker_Wireframe.png)
 
 ## Indicacioes a seguir
 
