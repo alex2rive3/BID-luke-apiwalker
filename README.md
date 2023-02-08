@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# Luke APIwalker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Se te ha asignado una tarea como desarrollador front-end de crear una aplicación para navegar por la API de Star Wars.
 
-## Available Scripts
+[Vista previa de la app](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Luke_APIWalker_Wireframe.png)
 
-In the project directory, you can run:
+## Indicacioes a seguir
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   Leer la documentación, crea una interfaz de usuario que realice las siguientes tareas:
+-   Crea un menú desplegable que permita al usuario elegir el recurso que está buscando
+-   Al lado del menú desplegable, crea un campo de entrada que acepte un número que se utilizará para consultar una identificación específica.
+-   Agrega un botón para permitirles enviar una solicitud a la API.
+-   Si la solicitud es exitosa, envíe al menos cuatro atributos que fueron devueltos por la API.
+-   Si la solicitud no tiene éxito, crea un mensaje de error que diga "Estos no son los droides que está buscando" con una imagen de Obi-Wan Kenobi.
+-   Además, crea una ruta para que cuando vaya a localhost: 3000 /: id, muestre a la persona con la identificación en la URL
+-   BONIFICACIÓN DE NINJA: Si el recurso es "people", escribe el nombre de su mundo natal en la página con parámetro de id (puede que tenga que hacer otra solicitud)
